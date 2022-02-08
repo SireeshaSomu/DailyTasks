@@ -1,0 +1,33 @@
+Git setup on windows
+
+1. Download git latest version 2.15.1 and install in local with default options.
+2. Verify whether the git has installed with version 2.15.1 by executing the following commands on windows cmd prompt
+   git --version
+3. Verify the context menu (right-click menu) shows the "Git Bash Here" and "Git GUI Here" options or not in windows
+
+Clone the Global Repository/Master () in local
+
+1. Get the URL to clone the repository in local
+   Open https://github.com/nandinivijay/
+   Search for Samplegr and navigate to that URL https://github.com/nandinivijay/Samplegr
+   Click on "Code" which is highlighted in green color.
+   Select HTTPS if it is selected.
+   Copy https URL (https://github.com/nandinivijay/Samplegr.git)
+
+2. Open windows explorer and create working directory with name "samplegr"
+
+3. Select the "samplegr" folder and right-click on folder shows the "Git Bash Here" and click on it.
+
+4. From "Git Bash" window, execute the following git command to clone the Global repository of "Samplegr" in local
+   git clone https://github.com/nandinivijay/Samplegr.git .
+
+5. Open README.md file and update with any changes and save to the working directory (samplegr)
+
+6. Add the README.md file by executing the following git command
+   git add README.md
+
+7. Commit the README.md file changes to Local repository which is virtual by executing the following git command
+   git commit -m "Updated README.md file"
+
+8. Push the README.md file changes to Global repository (origin) by executing the following git command
+   git push origin

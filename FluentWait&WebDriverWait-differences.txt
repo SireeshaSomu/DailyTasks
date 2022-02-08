@@ -1,0 +1,8 @@
+
+Differences between WebDriverWait & FluentWait
+
+WebDriverWait is applied on certain element with defined expected condition and time. 
+This wait is only applied to the specified element. 
+This wait can also throw exception when element is not found.
+WebDriverWait class is an extension of FluentWait class. It doesn't have its own methods.
+
