@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="4" name="TestParallel" parallel="true">
+    <classes>
+      <class name="selenium.internship.parallelDemo.Class1"/>
+      <class name="selenium.internship.parallelDemo.Class2"/>
+      <class name="selenium.internship.parallelDemo.Class3"/>
+      <class name="selenium.internship.parallelDemo.Class4"/>
+      <class name="selenium.internship.parallelDemo.Class5"/>
+      <class name="selenium.internship.parallelDemo.Class6"/>
+     
+    </classes>
+  </test> <!-- Test -->
+    <test thread-count="3" name="TestSequencial" parallel="false">
+    <classes>
+      <class name="selenium.internship.parallelDemo.Class10"/>
+      <class name="selenium.internship.parallelDemo.Class9"/>
+      <class name="selenium.internship.parallelDemo.Class8"/>
+      <class name="selenium.internship.parallelDemo.Class7"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
