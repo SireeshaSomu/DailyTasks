@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class CountCharsNumbersWhiteSpacesInAString {
 	public String count(String str) {
-		int lower = 0, number = 0, whitespaces = 0;
+		int lower = 0, number = 0, specialChars = 0;
 
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
@@ -14,10 +14,10 @@ public class CountCharsNumbersWhiteSpacesInAString {
 			else if (ch >= '0' && ch <= '9')
 				number++;
 			else if (ch == ' ' || ch == '\t' || ch == '\n')
-				whitespaces++;
+				specialChars++;
 		}
 
-		return String.valueOf(lower) + " " + String.valueOf(number) + " " + String.valueOf(whitespaces);
+		return String.valueOf(lower) + " " + String.valueOf(number) + " " + String.valueOf(specialChars);
 	}
 
 	@Test
