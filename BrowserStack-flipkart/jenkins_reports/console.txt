@@ -1,0 +1,179 @@
+Started by user Sireesha Somu
+Running as SYSTEM
+Building in workspace C:\Users\adire\eclipse-workspace\BrowserStack-flipkart
+[BrowserStack-flipkart] $ cmd.exe /C "mvn clean test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< browserStack:browserStack >----------------------
+[INFO] Building browserStack 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ browserStack ---
+[INFO] Deleting C:\Users\adire\eclipse-workspace\BrowserStack-flipkart\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ browserStack ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ browserStack ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ browserStack ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ browserStack ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to C:\Users\adire\eclipse-workspace\BrowserStack-flipkart\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.14.1:test (default-test) @ browserStack ---
+[INFO] Surefire report directory: C:\Users\adire\eclipse-workspace\BrowserStack-flipkart\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 4600
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 06, 2022 11:57:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Waiting for 4 seconds...
+Waiting for 4 seconds...
+Waiting for 4 seconds...
+Waiting for 4 seconds...
+Waiting for 4 seconds...
+
+**************Product 1**************
+Product name: SAMSUNG Galaxy S20 Ultra (Cosmic Gray, 128 GB)
+Product price: ?97,999
+Product link: https://www.flipkart.com/samsung-galaxy-s20-ultra-cosmic-gray-128-gb/p/itma25b4687846b4?pid=MOBFZXZ22CWZ2JZB&lid=LSTMOBFZXZ22CWZ2JZB7GKWML&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_1&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBFZXZ22CWZ2JZB.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 2**************
+Product name: SAMSUNG Galaxy S10 (Prism White, 512 GB)
+Product price: ?71,400
+Product link: https://www.flipkart.com/samsung-galaxy-s10-prism-white-512-gb/p/itmfdyp6ydvhczvg?pid=MOBFDNHARGTYX5YG&lid=LSTMOBFDNHARGTYX5YGZPHCFJ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBFDNHARGTYX5YG.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 3**************
+Product name: SAMSUNG Galaxy S9 Plus (Midnight Black, 64 GB)
+Product price: ?70,000
+Product link: https://www.flipkart.com/samsung-galaxy-s9-plus-midnight-black-64-gb/p/itmf33a6baxzmzfq?pid=MOBF2VWVGZCF39YY&lid=LSTMOBF2VWVGZCF39YYKQAGBC&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBF2VWVGZCF39YY.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 4**************
+Product name: SAMSUNG Galaxy S9 Plus (Lilac Purple, 64 GB)
+Product price: ?70,000
+Product link: https://www.flipkart.com/samsung-galaxy-s9-plus-lilac-purple-64-gb/p/itmf33a66chbpdhz?pid=MOBF2VWVGHF5FERH&lid=LSTMOBF2VWVGHF5FERHNG2OJO&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_4&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBF2VWVGHF5FERH.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 5**************
+Product name: SAMSUNG Galaxy S9 (Midnight Black, 64 GB)
+Product price: ?62,500
+Product link: https://www.flipkart.com/samsung-galaxy-s9-midnight-black-64-gb/p/itmf33a69rpszgzn?pid=MOBF2VWVBGCT5QQN&lid=LSTMOBF2VWVBGCT5QQN0ZJFUP&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_5&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBF2VWVBGCT5QQN.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 6**************
+Product name: SAMSUNG Galaxy S8 Plus (Midnight Black, 64 GB)
+Product price: ?53,990
+Product link: https://www.flipkart.com/samsung-galaxy-s8-plus-midnight-black-64-gb/p/itmethrymujayh4y?pid=MOBESYUWPQW5ZQWV&lid=LSTMOBESYUWPQW5ZQWVSE6W9I&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_6&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBESYUWPQW5ZQWV.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 7**************
+Product name: SAMSUNG Galaxy S21 FE 5G (Graphite, 128 GB)
+Product price: ?52,060
+Product link: https://www.flipkart.com/samsung-galaxy-s21-fe-5g-graphite-128-gb/p/itm79cfef26cc349?pid=MOBGBPFZSPRG8GSU&lid=LSTMOBGBPFZSPRG8GSUXXJE9U&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_7&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBGBPFZSPRG8GSU.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 8**************
+Product name: SAMSUNG Galaxy S20 FE (Cloud Navy, 128 GB)
+Product price: ?49,999
+Product link: https://www.flipkart.com/samsung-galaxy-s20-fe-cloud-navy-128-gb/p/itm64424c1cc5af2?pid=MOBFWAVTQNMETGGG&lid=LSTMOBFWAVTQNMETGGGIJYV5O&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_8&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBFWAVTQNMETGGG.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 9**************
+Product name: SAMSUNG Galaxy S20 FE (Cloud White, 128 GB)
+Product price: ?49,999
+Product link: https://www.flipkart.com/samsung-galaxy-s20-fe-cloud-white-128-gb/p/itm43c3c96db2180?pid=MOBFWAVTMGYNUDHW&lid=LSTMOBFWAVTMGYNUDHW6E1W6T&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_9&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBFWAVTMGYNUDHW.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 10**************
+Product name: SAMSUNG Galaxy S8 (Burgundy Red, 64 GB)
+Product price: ?49,699
+Product link: https://www.flipkart.com/samsung-galaxy-s8-burgundy-red-64-gb/p/itmf3zs5kcmtztcv?pid=MOBF3ZRVC9VZXKVG&lid=LSTMOBF3ZRVC9VZXKVGWQNN53&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_10&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBF3ZRVC9VZXKVG.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 11**************
+Product name: SAMSUNG Galaxy S20 FE (Cloud Mint, 128 GB)
+Product price: ?39,990
+Product link: https://www.flipkart.com/samsung-galaxy-s20-fe-cloud-mint-128-gb/p/itm08c6a49fe2661?pid=MOBFWAVTKRH6GFQG&lid=LSTMOBFWAVTKRH6GFQGC825VQ&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_11&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBFWAVTKRH6GFQG.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 12**************
+Product name: SAMSUNG Galaxy A52s 5G (Awesome White, 128 GB)
+Product price: ?37,499
+Product link: https://www.flipkart.com/samsung-galaxy-a52s-5g-awesome-white-128-gb/p/itm6467fa6b1b7bb?pid=MOBG6YPZ8QZ2FZYH&lid=LSTMOBG6YPZ8QZ2FZYHVSQDDM&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_12&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBG6YPZ8QZ2FZYH.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 13**************
+Product name: SAMSUNG Galaxy A52s 5G (Awesome Violet, 128 GB)
+Product price: ?36,999
+Product link: https://www.flipkart.com/samsung-galaxy-a52s-5g-awesome-violet-128-gb/p/itm4bc6d39957c89?pid=MOBG6YPZBADBYCB8&lid=LSTMOBG6YPZBADBYCB8KVM1XE&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_13&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBG6YPZBADBYCB8.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 14**************
+Product name: SAMSUNG Galaxy A52s 5G (Awesome Black, 128 GB)
+Product price: ?35,999
+Product link: https://www.flipkart.com/samsung-galaxy-a52s-5g-awesome-black-128-gb/p/itmf2a4c27660d16?pid=MOBG6YPZKZD6FNR3&lid=LSTMOBG6YPZKZD6FNR3KGBYUB&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_14&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBG6YPZKZD6FNR3.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 15**************
+Product name: SAMSUNG Galaxy A52s 5G (Awesome White, 128 GB)
+Product price: ?35,308
+Product link: https://www.flipkart.com/samsung-galaxy-a52s-5g-awesome-white-128-gb/p/itmb41b31546b6c4?pid=MOBG6YPZJZGRT8GX&lid=LSTMOBG6YPZJZGRT8GXREPGGX&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_15&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBG6YPZJZGRT8GX.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 16**************
+Product name: SAMSUNG Galaxy A52s 5G (Awesome Mint, 128 GB)
+Product price: ?33,490
+Product link: https://www.flipkart.com/samsung-galaxy-a52s-5g-awesome-mint-128-gb/p/itm4248111ee0240?pid=MOBG9FH4CNRWZMBY&lid=LSTMOBG9FH4CNRWZMBYCTGXI0&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_16&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBG9FH4CNRWZMBY.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 17**************
+Product name: SAMSUNG Galaxy A52s 5G (Awesome Black, 128 GB)
+Product price: ?31,990
+Product link: https://www.flipkart.com/samsung-galaxy-a52s-5g-awesome-black-128-gb/p/itm039629575759f?pid=MOBG6YPZK8DFTDHZ&lid=LSTMOBG6YPZK8DFTDHZZZ7EUT&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_17&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBG6YPZK8DFTDHZ.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 18**************
+Product name: SAMSUNG Galaxy A70s (Prism Crush White, 128 GB)
+Product price: ?30,500
+Product link: https://www.flipkart.com/samsung-galaxy-a70s-prism-crush-white-128-gb/p/itm57a85273f03b6?pid=MOBFKKGRJCHHRJS5&lid=LSTMOBFKKGRJCHHRJS5Z6YUTR&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_18&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBFKKGRJCHHRJS5.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 19**************
+Product name: SAMSUNG Galaxy A50s (Prism Crush Violet, 128 GB)
+Product price: ?21,070
+Product link: https://www.flipkart.com/samsung-galaxy-a50s-prism-crush-violet-128-gb/p/itme505f5f410d1c?pid=MOBFK4REEVWGFXES&lid=LSTMOBFK4REEVWGFXESZFPNCV&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_19&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBFK4REEVWGFXES.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 20**************
+Product name: SAMSUNG Galaxy A50s (Prism Crush White, 128 GB)
+Product price: ?21,070
+Product link: https://www.flipkart.com/samsung-galaxy-a50s-prism-crush-white-128-gb/p/itmed3b8b449ec8d?pid=MOBFK4REFQTCSVNA&lid=LSTMOBFK4REFQTCSVNARKTPWM&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_20&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBFK4REFQTCSVNA.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 21**************
+Product name: SAMSUNG Galaxy A50s (Prism Crush Black, 128 GB)
+Product price: ?21,070
+Product link: https://www.flipkart.com/samsung-galaxy-a50s-prism-crush-black-128-gb/p/itm31b19a153195b?pid=MOBFK4REY2CUGAG7&lid=LSTMOBFK4REY2CUGAG76S22LA&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_21&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBFK4REY2CUGAG7.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 22**************
+Product name: SAMSUNG Galaxy A03s (Blue, 64 GB)
+Product price: ?11,999
+Product link: https://www.flipkart.com/samsung-galaxy-a03s-blue-64-gb/p/itma586b6d0db62b?pid=MOBG5NK9D47WHAZJ&lid=LSTMOBG5NK9D47WHAZJJITHUD&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_22&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBG5NK9D47WHAZJ.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 23**************
+Product name: SAMSUNG Galaxy A03s (Black, 64 GB)
+Product price: ?11,999
+Product link: https://www.flipkart.com/samsung-galaxy-a03s-black-64-gb/p/itm207c7227db30c?pid=MOBG5NK9BDD3QW63&lid=LSTMOBG5NK9BDD3QW63KATEE2&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_23&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBG5NK9BDD3QW63.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+
+**************Product 24**************
+Product name: SAMSUNG Galaxy A03s (White, 64 GB)
+Product price: ?11,867
+Product link: https://www.flipkart.com/samsung-galaxy-a03s-white-64-gb/p/itm500d698d6ba3f?pid=MOBG5NK9HCGBSJZV&lid=LSTMOBG5NK9HCGBSJZVWTNK8V&marketplace=FLIPKART&q=Samsung+Galaxy+S10&store=tyy%2F4io&srno=s_1_24&otracker=search&fm=Search&iid=decd5aa3-fa82-49d8-83a3-19eda04b58d6.MOBG5NK9HCGBSJZV.SEARCH&ppt=browse&ppn=browse&ssid=4o95mc7jxs0000001646589480460&qH=8e78838d0b7698a3
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.355 sec
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  34.907 s
+[INFO] Finished at: 2022-03-06T11:58:19-06:00
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
