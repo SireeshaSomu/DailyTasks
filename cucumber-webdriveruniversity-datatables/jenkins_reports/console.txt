@@ -1,0 +1,208 @@
+Started by user Sireesha Somu
+Running as SYSTEM
+Building in workspace C:\Users\adire\eclipse-workspace\cucumber-webdriveruniversity-datatables
+[cucumber-webdriveruniversity-datatables] $ cmd.exe /C "mvn test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --< cucumber-webdriveruniversity-datatables:cucumber-webdriveruniversity-datatables >--
+[INFO] Building cucumber-webdriveruniversity-datatables 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ cucumber-webdriveruniversity-datatables ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.0:compile (default-compile) @ cucumber-webdriveruniversity-datatables ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ cucumber-webdriveruniversity-datatables ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.0:testCompile (default-testCompile) @ cucumber-webdriveruniversity-datatables ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to C:\Users\adire\eclipse-workspace\cucumber-webdriveruniversity-datatables\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ cucumber-webdriveruniversity-datatables ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running test.TestRunner
+
+Scenario: Verify the main page header title                                              # src/test/resources/features/datatables_and_button_states.feature:3
+Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 37271
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 08, 2022 2:18:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+**********Scenario Starts***********
+Verify the main page header title
+startTest
+  When user reads the main page header title                                             # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_reads_the_main_page_header_title()
+  Then user validate the main page header title should be "Data, Tables & Button States" # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_validate_the_main_page_header_title_should_be(java.lang.String)
+endTest
+PASSED
+
+Scenario: verify the total number of tables in main page         # src/test/resources/features/datatables_and_button_states.feature:7
+**********Scenario Starts***********
+verify the total number of tables in main page
+startTest
+  When user reads the total number of tables count               # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_reads_the_total_number_of_tables_count()
+  Then user validate the total number tables count should be "3" # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_validate_the_total_number_tables_count_should_be(java.lang.String)
+endTest
+PASSED
+
+Scenario: verify the table one details                                       # src/test/resources/features/datatables_and_button_states.feature:11
+**********Scenario Starts***********
+verify the table one details
+startTest
+  When user reads the table one details                                      # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_reads_the_table_one_details()
+  Then user validate the contents of the table one with the following values # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_validate_the_contents_of_the_table_one_with_the_following_values(io.cucumber.datatable.DataTable)
+    | Firstname | Lastname | Age |
+    | John      | Smith    | 45  |
+    | Jemma     | Jackson  | 94  |
+    | Michael   | Doe      | 20  |
+endTest
+PASSED
+
+Scenario: verify the table two details                                       # src/test/resources/features/datatables_and_button_states.feature:19
+**********Scenario Starts***********
+verify the table two details
+startTest
+  When user reads the table two details                                      # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_reads_the_table_two_details()
+  Then user validate the contents of the table two with the following values # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_validate_the_contents_of_the_table_two_with_the_following_values(io.cucumber.datatable.DataTable)
+    | Firstname | Lastname | Age |
+    | Jason     | Jones    | 27  |
+    | Sarah     | Jackson  | 56  |
+    | Bob       | Woods    | 80  |
+endTest
+PASSED
+
+Scenario: verify the first and last name input fields         # src/test/resources/features/datatables_and_button_states.feature:27
+**********Scenario Starts***********
+verify the first and last name input fields
+startTest
+  When user enters the first name "siri" and last name "somu" # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_enters_the_first_name_and_last_name(java.lang.String,java.lang.String)
+  Then user validate the input fields                         # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_validate_the_input_fields()
+endTest
+PASSED
+
+Scenario: verify the input text field                      # src/test/resources/features/datatables_and_button_states.feature:31
+**********Scenario Starts***********
+verify the input text field
+startTest
+  When user enters the input text as "hello, how are you?" # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_enters_the_input_text_as(java.lang.String)
+  Then user validate the input text field                  # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_validate_the_input_text_field()
+endTest
+PASSED
+
+Scenario: verify the breadcrumb links                                                # src/test/resources/features/datatables_and_button_states.feature:35
+**********Scenario Starts***********
+verify the breadcrumb links
+startTest
+  When user checks the breadcrumb links count should be "3"                          # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_checks_the_breadcrumb_links_count_should_be(java.lang.String)
+null
+Home
+true
+null
+About Us
+true
+null
+Contact Us
+true
+  Then user validate the home and about links are enabled and contact us not enabled # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_validate_the_home_and_about_links_are_enabled_and_contact_us_not_enabled()
+endTest
+PASSED
+
+Scenario: verify the pagination links             # src/test/resources/features/datatables_and_button_states.feature:39
+**********Scenario Starts***********
+verify the pagination links
+startTest
+  When user checks pagination links               # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_checks_pagination_links()
+  Then user validate all pages href value is same # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_validate_all_pages_href_value_is_same()
+endTest
+PASSED
+
+Scenario: verify the table three details                       # src/test/resources/features/datatables_and_button_states.feature:43
+**********Scenario Starts***********
+verify the table three details
+startTest
+Number of rows in TableThree : 4
+Number of rows in TableThree : 3
+Table three header data : #
+Table three header data : First
+Table three header data : Last
+Table three header data : 1
+Table three header data : 2
+Table three header data : 3
+Table three data : Andy
+Table three data : Otto
+Table three data : Jacob
+Table three data : Jones
+Table three data : Larry
+Table three data : Scott
+  When user checks the table three details                     # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_checks_the_table_three_details()
+  Then user validate the table three rows count should be four # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_validate_table_three_rows_count_should_be_four()
+endTest
+PASSED
+
+Scenario: verify the buttons state                     # src/test/resources/features/datatables_and_button_states.feature:47
+**********Scenario Starts***********
+verify the buttons state
+startTest
+true
+Danger
+true
+Warning
+true
+Info
+true
+Alert
+true
+Button-1
+Button-1
+true
+Button-2
+Button-2
+true
+Button-3
+Button-3
+true
+Button-4
+Button-4
+  When user checks the state of buttons                # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_checks_the_state_of_buttons()
+  Then user validate the warning button is not enabled # stepdefinitions.DataTablesAndButtonStatesStepDefinitions.user_validate_the_warning_button_is_not_enabled()
+endTest
+PASSED
+?????????????????????????????????????????????????????????????????????????????????????
+? Share your Cucumber Report with your team at https://reports.cucumber.io          ?
+? Activate publishing with one of the following:                                    ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    ?
+? Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    ?
+? JUnit:                                           @CucumberOptions(publish = true) ?
+?                                                                                   ?
+? More information at https://cucumber.io/docs/cucumber/environment-variables/      ?
+?                                                                                   ?
+? Disable this message with one of the following:                                   ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      ?
+?????????????????????????????????????????????????????????????????????????????????????
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.666 s - in test.TestRunner
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.431 s
+[INFO] Finished at: 2022-03-08T14:18:34-06:00
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
