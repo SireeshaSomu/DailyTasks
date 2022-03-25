@@ -18,7 +18,7 @@ public class MathChallenge {
 
 			if ("+-*/".contains(token)) {
 				operator = token;
-			} else if (!"=".contains(token)) { // ignore = to add in operand list
+			} else if (!"=".contains(token)) {
 				operandList.add(token);
 			}
 		}
@@ -30,7 +30,6 @@ public class MathChallenge {
 		String secondOperand = operandList.get(1);
 		String resultant = operandList.get(2);
 
-		// If x is present in resultant
 		if (resultant.contains("x")) {
 			x = resultant;
 
@@ -45,11 +44,9 @@ public class MathChallenge {
 				result = firstOperandVal * secondOperandVal;
 			else
 				result = firstOperandVal / secondOperandVal;
-		} else // If x in present in operands
-		{
+		} else {
 			int resultantVal = Integer.valueOf(resultant);
 
-			// If x in the first operand
 			if (firstOperand.contains("x")) {
 				x = firstOperand;
 
@@ -63,8 +60,7 @@ public class MathChallenge {
 					result = resultantVal / secondOperandVal;
 				else
 					result = resultantVal * secondOperandVal;
-			} else // If x is in the second operand
-			{
+			} else {
 				x = secondOperand;
 
 				int firstOperandVal = Integer.valueOf(firstOperand);
